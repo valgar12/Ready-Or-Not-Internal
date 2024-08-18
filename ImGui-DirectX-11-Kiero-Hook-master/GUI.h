@@ -99,7 +99,7 @@ inline void DrawMenu()
 		}
 		if (ImGui::BeginTabItem("Misc"))
 		{
-			ImGui::Checkbox("Team Chek", &gl::Misc::TeamCheck);
+			ImGui::Checkbox("Team Check", &gl::Misc::TeamCheck);
 			ImGui::Checkbox("Show mouse", &gl::Misc::ShowMouse);
 			ImGui::Checkbox("Crosshair", &gl::Misc::DrawCrosshair);
 			if (gl::Misc::DrawCrosshair)
